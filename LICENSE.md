@@ -165,7 +165,7 @@ getgenv().Enabled = false
 
 -- // main script use with silent aim / / -- 
 
-
+loadstring(game:HttpGet("https://raw.githubusercontent.com/tenaaki/GenericAimbot/main/v1.0.0"))()
 
 --]]
  
@@ -778,4 +778,4 @@ elseif ping < 20 then
 getgenv().Prediction = 0.11
         end	
         end	
-	end 
+	end
